@@ -32,14 +32,17 @@ manager login and password are:
 `login = manager password = sds2013`
 
 manager's personal account interface:
+
 <img src="https://github.com/ajdivotf/business-school/blob/main/images/manage_corses.PNG" width="600px"/>
 <img src="https://github.com/ajdivotf/business-school/blob/main/images/add_course.PNG" width="600px"/>
 <img src="https://github.com/ajdivotf/business-school/blob/main/images/manage_orders.PNG" width="600px"/>
 
-the manager can download a xlsx-report on students or courses
+the manager can download a xlsx-report on students or courses:
+
 <img src="https://github.com/ajdivotf/business-school/blob/main/images/download_report.PNG" width="600px"/>
 
 students's personal account interface:
+
 <img src="https://github.com/ajdivotf/business-school/blob/main/images/stud_profile.PNG" width="600px"/>
 <img src="https://github.com/ajdivotf/business-school/blob/main/images/edit_stu_profile.PNG" width="600px"/>
 <img src="https://github.com/ajdivotf/business-school/blob/main/images/choose_training_pr.PNG" width="600px"/>
