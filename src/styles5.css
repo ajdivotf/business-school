@@ -1,0 +1,70 @@
+body {
+	background-color: rgb(236, 239, 255);
+}
+
+.rate-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+/*pie chart*/
+.rating {
+	margin-top: 10px;
+	width: 540px;
+	background-color: white;
+	border-radius: 5px;
+	padding-bottom: 20px;
+}
+
+.pie {
+	margin: 20px;
+}
+
+.pie text {
+	fill: black;
+}
+
+.pie .name-text {
+	font-size: 15px;
+}
+
+.pie .value-text {
+	font-size: 20px;
+}
+
+/*card-table*/
+
+.card {
+	margin-top: 10px;
+	width: 900px;
+	border: none !important;
+	height: 80px;
+}
+
+.card-title {
+	font-size: 18px;
+}
+
+.card-subtitle {
+	font-size: 14px;
+}
+
+.params {
+	position: absolute;
+	font-size: 14px;
+	top: 20px;
+	left: 550px;
+}
+
+.params p {
+	color: rgb(170, 113, 245);
+}
+
+i {
+	color: rgb(170, 113, 245);
+	padding-left: 10px;
+	font-size: 14px;
+	position: absolute;
+	top: 19px;
+}

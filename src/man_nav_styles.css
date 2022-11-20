@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p, tr, td {
+	font-family: 'Roboto', sans-serif;
+}
+
+#man-nav .navbar {
+	background-color: white;
+}
+
+#man-nav .navbar-brand {
+	margin-left: 20px;
+}
+
+#man-nav .active {
+	background-color: rgb(236, 239, 255);
+	border-radius: 10px;
+}
+
+#man-nav .nav-link:hover {
+	color: rgb(170, 113, 245) !important;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #f4f4f4;
+	cursor: pointer;
+}
+
+#man-nav .nav-link {
+	margin-right: 1em !important;
+}
+
+#man-nav .navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-toggler {
+	background: #fff !important;
+}
+
+.bg-dark {
+	background-color: #343a40 !important
+}
+
+.bg-primary {
+	background-color: #343a40 !important
+}
+
+.round {
+	padding: 1px 10px;
+	border-radius: 10px;
+	font-size: 13px;
+	margin-left: 8px;
+	color: white;
+	font-family: 'Segoe UI';
+}
+#tabs .nav-item {
+	background-color: rgb(248, 249, 255);
+}
+#tabs .nav-item .tabs-text, #tabs .nav-item i {
+	color: rgb(207, 215, 249);
+}
+
+#tabs .nav-item .round {
+	background-color: rgb(207, 215, 249);
+}
+/*active*/
+#tabs .nav-item .active .tabs-text,
+#tabs .nav-item .active i {
+	color: rgb(170, 113, 245);
+}
+
+#tabs .active .round {
+	background-color: rgb(170, 113, 245);
+}

@@ -1,0 +1,106 @@
+	.container {
+		background-color: rgb(243, 244, 254);
+		border-radius: 5px;
+		padding: 10px 30px 30px 30px;
+		margin-top: 20px;
+	}
+
+	.btn-submit {
+		background-color: #9C32C2;
+		padding: 10px;
+		color: white;
+		border: none;
+		border-radius: 10px;
+	}
+
+	.btn-submit:hover {
+		background-color: #8B39AD;
+	}
+
+	#new-icon {
+		width: 105px;
+		margin-top: 18px;
+	}
+
+	.btn-div {
+		padding-top: 20px;
+	}
+
+	#input-hours,
+	#input-price {
+		width: 280px;
+	}
+
+	.bold-text {
+		font-weight: bold;
+		padding-top: 15px;
+		margin-bottom: 5px !important;
+		margin-top: 5px;
+	}
+
+	#input-name,
+	#input-description {
+		width: 580px;
+	}
+
+	.grey-text {
+		color: grey;
+		font-size: 13px;
+	}
+
+	.form-control option {
+		color: black;
+	}
+
+	.form-control {
+		width: 150px;
+		border-radius: 10px;
+		border: solid 1.5px rgb(236, 239, 255);
+		height: 40px;
+		color: black;
+
+	}
+
+	.form-control:focus {
+		border: solid 1.5px rgb(170, 113, 245);
+	}
+
+	.form-control:active,
+	.form-control:hover,
+	.form-control:focus {
+		box-shadow: none !important;
+		border: solid 1.5px rgb(170, 113, 245);
+
+	}
+
+	#change-icon,
+	#add-icon {
+		cursor: pointer;
+	}
+
+	#change-icon:hover,
+	#add-icon:hover {
+		background-color: rgb(243, 244, 254) !important;
+	}
+
+	#input-icon {
+		width: 270px;
+	}
+
+	#btn-course-data {
+		background-color: white;
+		padding: 10px 20px 8px 15px;
+		border-radius: 8px;
+	}
+
+	#btn-course-data:hover {
+		border: solid 1px rgb(170, 113, 245);
+	}
+
+	#course-data-status {
+		margin-left: 80px;
+		font-size: 13px;
+		background-color: rgb(236, 239, 255);
+		padding: 0 5px;
+		border-radius: 8px;
+	}

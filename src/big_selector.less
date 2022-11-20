@@ -1,0 +1,95 @@
+.select-dropdown {
+	position: relative;
+	display: inline-block;
+	//max-width: 100%;
+
+
+	&__button:active,
+	&__button:hover,
+	&__button:active {
+		border: 1px solid rgb(170, 113, 245) !important;
+	}
+
+	&__button {
+		padding: 7px 35px 7px 15px;
+		background-color: #fff;
+		color: black;
+		border: 1px solid rgb(236, 239, 255);
+		border-radius: 6px;
+		cursor: pointer;
+		width: 580px;
+		text-align: left;
+
+		&:active,
+		&:hover,
+		&:active,
+		&:focus {
+			border: 1px solid rgb(170, 113, 245) !important;
+		}
+
+		&:focus {
+			outline: none;
+		}
+
+		.zmdi-chevron-down {
+			position: absolute;
+			right: 10px;
+			top: 12px;
+		}
+	}
+
+	&__list {
+		position: absolute;
+		display: block;
+		left: 0;
+		right: 0;
+		max-height: 300px;
+		overflow: auto;
+		margin: 0;
+		padding: 0;
+		border: 1px solid rgb(236, 239, 255);
+		border-top: 0px solid transparent;
+		list-style-type: none;
+		opacity: 0;
+		pointer-events: none;
+		transform-origin: top left;
+		transform: scale(1, 0);
+		transition: all ease-in-out .3s;
+		z-index: 2;
+
+		
+		&.active {
+			opacity: 1;
+			pointer-events: auto;
+			transform: scale(1, 1);
+
+		}
+
+		&:active,
+		&:hover,
+		&:active,
+		&:focus {
+			border: 1px solid rgb(170, 113, 245) !important;
+		}
+	}
+
+	&__list-item {
+		display: block;
+		list-style-type: none;
+		padding: 10px 15px;
+		background: #fff;
+		border-top: 1px solid rgb(236, 239, 255);
+		font-size: 14px;
+		line-height: 1.4;
+		cursor: pointer;
+		color: black;
+		text-align: left;
+		transition: all ease-in-out .3s;
+
+		&:hover {
+			background-color: rgb(236, 239, 255);
+			transition: all ease-in-out .3s;
+		}
+
+	}
+}
